@@ -65,7 +65,7 @@
             "contact3": "Mobil chaqiruv"
         },
         "about": "Mualliflik huquqi 2024 @ himoyalangan",
-        "creator": "Yaratuvchi"
+        "creator": "Dasturchi:"
     },
     "coursesPage": {
         "price": "Narx",
@@ -73,5 +73,18 @@
         "teacher": "Ustoz",
         "continuity": "Davomiylik",
         "time": "oy"
+    },
+    "dynamicPage": {
+        "navi": "Orqaga",
+        "price": "Narx",
+        "students": "Maksimum o'quvchilar",
+        "teacher": "Ustoz",
+        "continuity": "Davomiylik",
+        "valute": "so'm",
+        "time": "oy",
+        "subTitle": "Kursga yoziling!",
+        "subName": "Sizning ismingiz...",
+        "subNumber": "Sizning raqamingiz...",
+        "subBtn": "Yozilish"
     }
 }

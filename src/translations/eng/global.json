@@ -65,7 +65,7 @@
             "contact3": "Phone call"
         },
         "about": "Copyright 2024 @ all right",
-        "creator": "Created By"
+        "creator": "Developer:"
     },
     "coursesPage": {
         "price": "Price",
@@ -73,5 +73,18 @@
         "teacher": "Teacher",
         "continuity": "Continuity",
         "time": "months"
+    },
+    "dynamicPage": {
+        "navi": "Go back",
+        "price": "Price",
+        "students": "Max students",
+        "teacher": "Teacher",
+        "continuity": "Continuity",
+        "valute": "sum",
+        "time": "months",
+        "subTitle": "Enroll the course!",
+        "subName": "Your name here...",
+        "subNumber": "Your number here...",
+        "subBtn": "Enroll"
     }
 }

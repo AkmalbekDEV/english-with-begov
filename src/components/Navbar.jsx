@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Logo from '../assets/logo.jpg'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Menu, MenuButton, MenuList, MenuItem, Button } from '@chakra-ui/react'
 import { BsArrowDown } from 'react-icons/bs'
 import ReactCountryFlag from 'react-country-flag'
@@ -14,6 +14,7 @@ import { CiMenuFries } from 'react-icons/ci'
 const Navbar = () => {
   const [t, i18n] = useTranslation("global")
   const [click, setClick] = useState(false)
+  const navigate = useNavigate()
 
   const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang)
@@ -62,7 +63,7 @@ const Navbar = () => {
         <div className='flex justify-between items-center'>
           <div className='flex justify-between items-center w-full'>
             <div className='flex items-center gap-2 max-sm:ml-5'>
-              <img src={Logo} alt="" className='w-[100px]' />
+              <img onClick={() => navigate('/')} src={Logo} alt="" className='w-[100px] cursor-pointer' />
             </div>
             <nav className='flex items-center gap-7 max-sm:hidden'>
               <Link to={"/"} className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center font-medium">{t("header.navlink1")}</Link>

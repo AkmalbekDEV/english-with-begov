@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center max-sm:justify-center gap-3 mt-5'>
               <h1 className='text-xl font-bold'>{t("footer.creator")}</h1>
-              <Link to={"https://devs-community-io.vercel.app"}>
+              <Link target='_blank' to={"https://devs-community-io.vercel.app"}>
                 <img src={WBS} alt="" className='w-10' />
               </Link>
             </div>
