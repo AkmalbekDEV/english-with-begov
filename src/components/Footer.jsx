@@ -50,7 +50,7 @@ const Footer = () => {
             <nav className='grid gap-5'>
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource1")}</a>
               <a href="/teachers" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource2")}</a>
-              <a href="/certificates" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource3")}</a>
+              <a href="/courses" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource3")}</a>
             </nav>
           </div>
           <div className='grid gap-3'>
