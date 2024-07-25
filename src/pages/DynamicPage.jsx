@@ -76,19 +76,19 @@ const DynamicPage = () => {
                         <h1 className='text-5xl font-bold text-blue-700'>{data.title}</h1>
                         <div className='flex items-center gap-3'>
                             <GiPriceTag size={30} color='blue' />
-                            <h1 className='text-2xl font-medium'>{t("dynamicPage.price")}: {data.price} {t("dynamicPage.valute")}</h1>
+                            <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.price")}: {data.price} {t("dynamicPage.valute")}</h1>
                         </div>
                         <div className='flex items-center gap-3'>
                             <BiUser size={30} color='blue' />
-                            <h1 className='text-2xl font-medium'>{t("dynamicPage.students")}: {data.students}</h1>
+                            <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.students")}: {data.students}</h1>
                         </div>
                         <div className='flex items-center gap-3'>
                             <GiTeacher size={30} color='blue' />
-                            <h1 className='text-2xl font-medium'>{t("dynamicPage.teacher")}: {data.teacher}</h1>
+                            <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.teacher")}: {data.teacher}</h1>
                         </div>
                         <div className='flex items-center gap-3'>
                             <BsWatch size={30} color='blue' />
-                            <h1 className='text-2xl font-medium'>{t("dynamicPage.continuity")}: {data.continuity} {t("dynamicPage.time")}</h1>
+                            <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.continuity")}: {data.continuity} {t("dynamicPage.time")}</h1>
                         </div>
                     </div>
                 </div>

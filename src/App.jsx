@@ -20,11 +20,8 @@ function App() {
 
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: "eng",
+    lng: "uz",
     resources: {
-      eng: {
-        global: global_eng
-      },
       uz: {
         global: global_uz
       },
