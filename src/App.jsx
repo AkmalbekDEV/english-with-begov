@@ -7,7 +7,6 @@ import Aos from 'aos'
 import { useEffect } from 'react'
 import CoursesPage from './pages/CoursesPage'
 import TeachersPage from './pages/TeachersPage'
-import global_eng from './translations/eng/global.json'
 import global_uz from './translations/uz/global.json'
 import i18next from 'i18next'
 
@@ -29,7 +28,7 @@ function App() {
   });
 
   return (
-    <div className='scroll-smooth'>
+    <div className='scroll-smooth text-blue-800'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

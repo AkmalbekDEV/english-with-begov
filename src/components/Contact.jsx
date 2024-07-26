@@ -44,7 +44,7 @@ const Contact = () => {
     return (
         <div className='flex items-center justify-center bg-[#06052e] h-[500px] max-sm:h-[400px] rounded-3xl mt-20 px-32 max-sm:px-0 max-sm:mx-5'>
             <div className='grid gap-7 max-sm:gap-4'>
-                <h1 className='text-white text-5xl font-semibold text-center mx-36 max-sm:text-2xl max-sm:mx-5'>{t("contact.title")}</h1>
+                <h1 className='text-white text-5xl font-semibold text-center  max-sm:text-2xl max-sm:mx-5'>{t("contact.title")}</h1>
                 <h1 className='text-gray-500 text-2xl font-normal text-center max-sm:text-xl max-sm:px-5'>{t("contact.desc")}</h1>
                 <div className='flex justify-center'>
                     <form onSubmit={handleData} className='w-[70%] flex  items-center gap-5 max-sm:gap-1 rounded-2xl bg-white'>

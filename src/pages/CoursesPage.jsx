@@ -17,8 +17,8 @@ const CoursesPage = () => {
         {state.map((product) => {
           if (product.type === "courses") {
             return (
-              <Link to={`/item/${product.id}`}>
-                <div key={product.id} className='flex max-sm:flex-col items-center justify-between px-10 max-sm:p-5 py-5 rounded-xl shadow-2xl'>
+              <Link key={product.id} to={`/item/${product.id}`}>
+                <div className='flex max-sm:flex-col items-center justify-between px-10 max-sm:p-5 py-5 rounded-xl shadow-2xl'>
                   <img className='w-[50%] max-sm:w-full rounded-xl' src={product.img} alt="" />
                   <div className='w-[45%] max-sm:w-full max-sm:mt-5 grid gap-7 content-between'>
                     <h1 className='text-4xl font-bold'>{product.title}</h1>

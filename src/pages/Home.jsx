@@ -11,7 +11,6 @@ const Home = () => {
     <div>
       <div className='max-w-[1250px] mx-auto'>
         <Hero />
-        <Brands />
         <Amenities />
       </div>
       <div className='bg-[#f7b602] py-10 mt-5' id='courses'>
@@ -24,6 +23,7 @@ const Home = () => {
       </div>
       <div id='contact' className='max-w-[1250px] mx-auto'>
         <Contact />
+        <Brands />
       </div>
     </div>
   )

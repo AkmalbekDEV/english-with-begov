@@ -6,7 +6,7 @@ const Amenities = () => {
     const [t, i18n] = useTranslation("global")
 
     return (
-        <section id='about' className='grid gap-5 py-16'>
+        <section id='about' className='grid gap-5 pb-16'>
             <h1 className='text-center font-bold text-5xl'>{t("about.title")}</h1>
             <h2 className='text-center font-medium text-xl text-gray-500 mx-72 max-sm:mx-5'>{t("about.desc")}</h2>
             <div className='flex items-center justify-between mt-10 max-sm:flex-col max-sm:gap-10'>

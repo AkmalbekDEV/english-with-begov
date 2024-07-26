@@ -6,8 +6,7 @@
         "switchlang": "Tilni o'zgartirish"
     },
     "hero": {
-        "title": "Keling, yangi bilim va qobiliyatlarni o'rganamiz!",
-        "desc": "O'quv markazimizga tashrif buyuring va iloji boricha ingliz tilini yaxshilang. Bizga ishoning, bu sizga albatta foyda keltiradi. English With Begov bu borada sizga yordam beradi!"
+        "title": "Ingliz tilini biz bilan 0 dan biz bilan tez va oson o'rganing!"
     },
     "about": {
         "title": "Biz haqimizda",
@@ -28,8 +27,8 @@
         "btn": "Kurs haqida"
     },
     "teachers": {
-        "title": "Bizning ustozlar",
-        "desc": "Bu yerda siz o'qituvchilarimiz haqida ma'lumot olishingiz va o'quv markazimiz bilan yaqindan tanishishingiz mumkin.",
+        "title": "Bizning Teacher",
+        "desc": "Bu yerda siz teacher haqida ma'lumot olishingiz va o'quv markazimiz bilan yaqindan tanishishingiz mumkin.",
         "type": "Asosiy ustoz",
         "teacherDesc": "Salom, men Begov Dostonbek. Men 24 yoshdaman. Top Language Centerda ingliz tili grammatikasi va pre-ielts fanlaridan dars beraman. Shu kungacha 300 dan ortiq talabalarga grammatika va pre-ielts fanlaridan saboq berdim va ularni IELTS darajasiga olib chiqdim.",
         "time": "2020 - yildan beri",
@@ -37,8 +36,8 @@
         "btn": "Rezyume"
     },
     "contact": {
-        "title": "Kurslar haqida ma'lumot oling va kurslarga yoziling",
-        "desc": "Telefon raqamingizni kiriting va kurslar haqida ma'lumot oling!",
+        "title": "Administrator bilan bog'laning va kurslar haqida ma'lumot oling",
+        "desc": "Telefon raqamingizni kiriting!",
         "inputValue": "Raqamingiz...",
         "inputBtn": "Yuborish!"
     },

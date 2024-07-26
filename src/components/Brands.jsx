@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Brands = () => {
   return (
-    <section className='flex items-center justify-between max-sm:grid max-sm:grid-cols-2 max-sm:px-10'>
+    <section className='flex items-center justify-between max-sm:grid max-sm:grid-cols-2 max-sm:px-10 mt-20'>
       <Link className='flex justify-center' to={"https://ielts.org"} target='_blank'>
         <img src={Ielts} alt="" className='w-[150px]' />
       </Link>
