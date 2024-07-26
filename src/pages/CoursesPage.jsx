@@ -27,10 +27,6 @@ const CoursesPage = () => {
                       <h1 className='text-2xl font-medium'>{t("coursesPage.price")}: {product.price}</h1>
                     </div>
                     <div className='flex items-center gap-3'>
-                      <BiUser size={35} color='blue' />
-                      <h1 className='text-2xl font-medium'>{t("coursesPage.students")}: {product.students}</h1>
-                    </div>
-                    <div className='flex items-center gap-3'>
                       <GiTeacher size={35} color='blue' />
                       <h1 className='text-2xl font-medium'>{t("coursesPage.teacher")}: {product.teacher}</h1>
                     </div>

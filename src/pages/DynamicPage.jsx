@@ -79,10 +79,6 @@ const DynamicPage = () => {
                             <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.price")}: {data.price} {t("dynamicPage.valute")}</h1>
                         </div>
                         <div className='flex items-center gap-3'>
-                            <BiUser size={30} color='blue' />
-                            <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.students")}: {data.students}</h1>
-                        </div>
-                        <div className='flex items-center gap-3'>
                             <GiTeacher size={30} color='blue' />
                             <h1 className='text-2xl max-sm:text-[22px] font-medium'>{t("dynamicPage.teacher")}: {data.teacher}</h1>
                         </div>
