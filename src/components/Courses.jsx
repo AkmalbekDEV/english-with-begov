@@ -21,7 +21,6 @@ const Courses = () => {
                         return (
                             <div key={product.id} className='w-[40%] max-sm:w-full rounded-xl grid gap-5 p-5 bg-white'>
                                 <img src={product.img} alt="" className='w-full h-[250px] max-sm:h-[200px] rounded-xl' />
-                                <h1 className='text-3xl font-medium'>{product.title}</h1>
                                 <Link to={`/item/${product.id}`}>
                                     <button className='w-full rounded-xl py-3 bg-blue-700 text-lg font-medium text-white hover:shadow-md hover:shadow-blue-500 transition-all'>{t("courses.btn")}</button>
                                 </Link>

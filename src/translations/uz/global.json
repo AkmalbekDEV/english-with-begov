@@ -6,7 +6,8 @@
         "switchlang": "Tilni o'zgartirish"
     },
     "hero": {
-        "title": "Ingliz tilini biz bilan tez va oson o'rganing!"
+        "title": "English With Begov",
+        "motto": "Learn, Grow, Succeed!"
     },
     "about": {
         "title": "Biz haqimizda",
@@ -28,7 +29,7 @@
     },
     "teachers": {
         "title": "Bizning Teacher",
-        "desc": "Bu yerda siz teacher haqida ma'lumot olishingiz va o'quv markazimiz bilan yaqindan tanishishingiz mumkin.",
+        "desc": "Bu yerda siz teacher haqida ma'lumot olishingiz mumkin.",
         "type": "Asosiy ustoz",
         "teacherDesc": "Salom, men Begov Dostonbek. Men 24 yoshdaman. Top Language Centerda ingliz tili grammatikasi va pre-ielts fanlaridan dars beraman. Shu kungacha 300 dan ortiq talabalarga grammatika va pre-ielts fanlaridan saboq berdim va ularni IELTS darajasiga olib chiqdim.",
         "time": "2020 - yildan beri",

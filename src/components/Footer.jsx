@@ -14,27 +14,7 @@ const Footer = () => {
         <div className='flex items-center justify-between max-sm:flex-col max-sm:gap-10 max-sm:text-center'>
           <div className='grid'>
             <div className='max-sm:flex max-sm:justify-center'>
-              <img src={Logo} alt="" className='w-[100px]' />
-            </div>
-            <div className='grid gap-5'>
-              <h1 className='text-xl font-bold'>{t("footer.grid1.title")}</h1>
-              <div className='flex items-center max-sm:justify-center gap-5'>
-                <a href="https://instagram.com/english_with_begov">
-                  <BsInstagram size={23} color='black' />
-                </a>
-                <a href="https://www.facebook.com/dos">
-                  <BsFacebook size={23} color='black' />
-                </a>
-                <a href="https://www.youtube.com/@TOPLC-xl4bk">
-                  <BsYoutube size={30} color='black' />
-                </a>
-              </div>
-            </div>
-            <div className='flex items-center max-sm:justify-center gap-3 mt-5'>
-              <h1 className='text-xl font-bold'>{t("footer.creator")}</h1>
-              <Link target='_blank' to={"https://devs-community-io.vercel.app"}>
-                <img src={WBS} alt="" className='w-10' />
-              </Link>
+              <img src={Logo} alt="" className='w-[200px]' />
             </div>
           </div>
           <div className='grid gap-3'>
@@ -67,6 +47,11 @@ const Footer = () => {
         <h1 className='text-center font-medium text-gray-500 text-lg'>{t("footer.about")}</h1>
         <div className='flex justify-center'>
           <div className='border-b-2 w-[500px] max-sm:w-[300px]'></div>
+        </div>
+        <div className='flex justify-center'>
+          <Link target='_blank' to={"https://devs-community-io.vercel.app"}>
+            <img src={WBS} alt="" className='w-10' />
+          </Link>
         </div>
       </div>
     </div>

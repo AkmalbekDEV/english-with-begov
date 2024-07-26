@@ -7,7 +7,7 @@ const Teachers = () => {
     const [t, i18n] = useTranslation("global")
 
     return (
-        <section id='teachers' className='grid gap-10 mt-20'>
+        <section id='teachers' className='grid gap-10 mt-5 mb-20'>
             <div className='grid gap-5'>
                 <h1 className='text-center font-bold text-5xl'>{t("teachers.title")}</h1>
                 <h2 className='text-center font-medium text-xl text-gray-500 mx-72 max-sm:mx-5'>{t("teachers.desc")}</h2>
