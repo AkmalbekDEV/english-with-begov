@@ -8,7 +8,7 @@ const Teachers = () => {
 
     return (
         <section id='teachers' className='grid gap-10 mt-5 mb-20'>
-            <div className='flex max-sm:flex-col gap-16 max-sm:gap-5 items-center px-8 py-5 max-sm:px-5 max-sm:py-5'>
+            <div className='flex max-sm:flex-col-reverse gap-16 max-sm:gap-10 items-center px-8 py-5 max-sm:px-5 max-sm:py-5'>
                 <div className='grid content-between gap-10 max-sm:gap-5 max-sm:text-center'>
                     <h1 className='text-4xl font-bold'>Hi, I'm <span className='text-blue-700'>Begov Dostonbek</span></h1>
                     <p className='text-lg font-medium text-gray-500'>
