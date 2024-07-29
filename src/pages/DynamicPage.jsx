@@ -99,8 +99,8 @@ const DynamicPage = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center mt-20'>
-                <div className='p-5 rounded-xl shadow-2xl w-[50%]'>
+            <div className='flex justify-center mt-10 max-sm:px-5'>
+                <div className='p-5 rounded-xl shadow-2xl w-[50%] max-sm:w-full max-sm:text-sm'>
                     <p className='text-xl font-medium'>{data.desc}</p>
                 </div>
             </div>
@@ -113,7 +113,7 @@ const DynamicPage = () => {
                 </div>
             </div>
             <div className='mt-10 grid grid-cols-3 max-sm:grid-cols-1 max-sm:px-5 gap-10 content-center'>
-                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit'>
+                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit pb-8'>
                     <div className='flex items-center gap-3'>
                         <h1 className='px-3 py-1 text-white rounded-[50%] w-fit bg-blue-500'>1</h1>
                         <h1 className='text-xl font-medium'>{data.contentTitleG}</h1>
@@ -185,7 +185,7 @@ const DynamicPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit'>
+                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit pb-7'>
                     <div className='flex items-center gap-3'>
                         <h1 className='px-3 py-1 text-white rounded-[50%] w-fit bg-blue-500'>4</h1>
                         <h1 className='text-xl font-medium'>{data.contentTitleS}</h1>
@@ -209,7 +209,7 @@ const DynamicPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit'>
+                <div className='rounded-xl shadow-2xl bg-white p-5 w-fit pb-8'>
                     <div className='flex items-center gap-3'>
                         <h1 className='px-3 py-1 text-white rounded-[50%] w-fit bg-blue-500'>4</h1>
                         <h1 className='text-xl font-medium'>{data.tableTitle}</h1>
@@ -229,7 +229,7 @@ const DynamicPage = () => {
                         </div>
                     </div>
                 </div>
-                <form id='ref' onSubmit={handleData} className='rounded-xl shadow-xl w-[400px] h-[300px] max-sm:w-[360px] p-5 grid gap-5 bg-blue-700'>
+                <form id='ref' onSubmit={handleData} className='rounded-xl shadow-xl w-[400px] h-[300px] max-sm:w-full p-5 grid gap-5 bg-blue-700'>
                     <h1 className='text-center text-2xl font-medium text-white'>{t("dynamicPage.subTitle")}</h1>
                     <input value={name} onChange={(e) => setName(e.target.value)} type="text" required name='name' placeholder={t("dynamicPage.subName")} className='w-full py-2 pl-5 text-lg border-2 rounded-xl outline-none' />
                     <input defaultValue={"+998"} value={number} onChange={(e) => setNumber(e.target.value)} type="tel" required name='number' placeholder={t("dynamicPage.subNumber")} className='w-full py-2 pl-5 text-lg border-2 rounded-xl outline-none' />
