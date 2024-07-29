@@ -17,6 +17,7 @@ import {
     TableCaption,
     TableContainer,
 } from '@chakra-ui/react'
+import { ImPriceTag } from 'react-icons/im'
 
 const DynamicPage = () => {
     const [name, setName] = useState("")
@@ -82,12 +83,25 @@ const DynamicPage = () => {
                 <p><BsArrowRight /></p>
                 <a href="" className='hover:underline'>{data.title}</a>
             </div>
-            <div className='mt-8 flex items-center gap-20 max-sm:gap-10 max-sm:flex-col max-sm:px-10 max-sm:text-center'>
+            <div className='mt-8 flex items-center gap-10 max-sm:gap-10 max-sm:flex-col max-sm:px-10 max-sm:text-center'>
                 <img src={data.img} className='w-[40%] max-sm:w-full border-4 rounded-xl border-blue-700' alt="" />
-                <div className='grid gap-5 p-5 rounded-xl shadow-xl bg-white'>
-                    <p className='text-xl max-sm:text-lg font-medium'>Davomiylik: <span className='text-black'>{data.continuity}</span></p>
-                    <p className='text-lg font-medium'>{data.desc}</p>
-                    <p className='text-xl max-sm:text-lg font-medium'>Narx: <span className='text-black'>{data.price} so'm</span></p>
+                <div className='grid gap-10 p-5 rounded-2xl shadow-xl bg-white w-full py-12'>
+                    <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><BsWatch size={30} /> Davomiylik: <span className='text-black'>{data.continuity}</span></p>
+                    <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><ImPriceTag size={30} /> Narx: <span className='text-black'>{data.price} so'm</span></p>
+                    <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><GiTeacher size={30} /> Ustoz: <span className='text-black'>{data.teacher}</span></p>
+                </div>
+            </div>
+            <div className='flex justify-center mt-20'>
+                <div className='grid gap-5'>
+                    <h1 className='text-4xl font-medium text-center'>Kurs haqida</h1>
+                    <div className='flex justify-center border-b-4 rounded-xl border-blue-700'>
+                        <div className='border-b-2 border-blue-500'></div>
+                    </div>
+                </div>
+            </div>
+            <div className='flex justify-center mt-20'>
+                <div className='p-5 rounded-xl shadow-2xl w-[50%]'>
+                    <p className='text-xl font-medium'>{data.desc}</p>
                 </div>
             </div>
             <div className='flex justify-center mt-20'>
