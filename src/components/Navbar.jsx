@@ -40,23 +40,10 @@ const Navbar = () => {
   return (
     <section className='shadow-md fixed w-full top-0 left-0 z-50 bg-white'>
       <div className='max-w-[1250px] mx-auto'>
-        <div className='flex justify-between items-center'>
-          <div className='flex justify-between items-center w-full'>
-            <div className='flex items-center gap-2 max-sm:ml-5'>
-              <img onClick={() => navigate('/')} src={Logo} alt="" className='w-[100px] cursor-pointer' />
-            </div>
-            <nav className='flex items-center gap-7 max-sm:hidden'>
-              <Link to={"/"} className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center font-medium">{t("header.navlink1")}</Link>
-              <Link to={"/courses"} className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center font-medium">{t("header.navlink2")}</Link>
-              <Link to={"/teachers"} className="relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center font-medium">{t("header.navlink3")}</Link>
-            </nav>
+        <div className='flex justify-center items-center w-full'>
+          <div className='flex items-center gap-2 max-sm:ml-5'>
+            <img onClick={() => navigate('/')} src={Logo} alt="" className='w-[100px] cursor-pointer' />
           </div>
-          <div>
-            {click && content}
-          </div>
-          <button className='block sm:hidden transition-all' onClick={handleClick}>
-            {click ? <FaTimes size={30} className='mr-5' /> : <CiMenuFries size={30} className='mr-5' />}
-          </button>
         </div>
       </div>
     </section>
