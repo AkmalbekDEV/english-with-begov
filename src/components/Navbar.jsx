@@ -45,7 +45,7 @@ const Navbar = () => {
             <img onClick={() => navigate('/')} src={Logo} alt="" className='w-[100px] cursor-pointer' />
           </div>
           <nav>
-            <Link to={"https://begov-for-students.vercel.app"} className='text-xl font-medium'>Natijalar</Link>
+            <Link to={"https://begov-for-students.vercel.app"} className='text-xl font-medium max-sm:mr-5'>Natijalar</Link>
           </nav>
         </div>
       </div>

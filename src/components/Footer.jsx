@@ -21,22 +21,22 @@ const Footer = () => {
             <h1 className='text-2xl font-medium'>{t("footer.grid2.title")}</h1>
             <nav className='grid gap-5'>
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link1")}</a>
-              <a href="/courses" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link2")}</a>
-              <a href="/teachers" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link3")}</a>
+              <a href="https://begov-for-students.vercel.app" className='text-lg font-medium text-gray-500'>Natijalar</a>
+              <a href="https://www.wbsdev.uz" className='text-lg font-medium text-gray-500'>Dasturchi sayt</a>
             </nav>
           </div>
-          <div className='grid gap-3'>
+          {/* <div className='grid gap-3'>
             <h1 className='text-2xl font-medium'>{t("footer.grid3.title")}</h1>
             <nav className='grid gap-5'>
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource1")}</a>
               <a href="/teachers" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource2")}</a>
               <a href="/courses" className='text-lg font-medium text-gray-500'>{t("footer.grid3.resource3")}</a>
             </nav>
-          </div>
+          </div> */}
           <div className='grid gap-3'>
             <h1 className='text-2xl font-medium'>{t("footer.grid4.title")}</h1>
             <nav className='grid gap-5'>
-              <a target='_blank' href="https://yandex.uz/maps/org/top_lc/236129718447/?ll=60.613763%2C41.566023&z=20.55" className='text-lg font-medium text-gray-500'>{t("footer.grid4.contact1")}</a>
+              <a target='_blank' href="https://yandex.uz/maps/org/top_lc/236129718447/?ll=60.613763%2C41.566023&z=20.55" className='text-lg font-medium text-gray-500'>Manzil</a>
               <a href="mailto:akmaldevuzb@gmail.com" className='text-lg font-medium text-gray-500'>{t("footer.grid4.contact2")}</a>
               <a href="tel:+998-91-999-11-29" className='text-lg font-medium text-gray-500'>{t("footer.grid4.contact3")}</a>
             </nav>
