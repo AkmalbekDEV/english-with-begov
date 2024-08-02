@@ -15,6 +15,7 @@ const Footer = () => {
           <div className='grid'>
             <div className='max-sm:flex max-sm:justify-center'>
               <img src={Logo} alt="" className='w-[200px]' />
+              <Link to={"https://begov-for-students.vercel.app"} className='text-xl font-medium max-sm:mr-5 w-full flex items-center justify-center py-3 px-5 rounded-xl bg-gray-100'>Xolatingizni tekshiring!</Link>
             </div>
           </div>
           <div className='grid gap-3'>
