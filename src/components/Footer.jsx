@@ -13,8 +13,10 @@ const Footer = () => {
       <div className='max-w-[1250px] mx-auto'>
         <div className='flex items-center justify-between max-sm:flex-col max-sm:gap-10 max-sm:text-center'>
           <div className='grid'>
-            <div className='max-sm:flex max-sm:justify-center'>
-              <img src={Logo} alt="" className='w-[200px]' />
+            <div className='max-sm:flex max-sm:justify-center max-sm:flex-col'>
+              <div className='max-sm:flex max-sm:justify-center'>
+                <img src={Logo} alt="" className='w-[200px]' />
+              </div>
               <Link to={"https://begov-for-students.vercel.app"} className='text-xl font-medium max-sm:mr-5 w-full flex items-center justify-center py-3 px-5 rounded-xl bg-gray-100'>Xolatingizni tekshiring!</Link>
             </div>
           </div>
@@ -24,6 +26,7 @@ const Footer = () => {
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link1")}</a>
               <a href="https://begov-for-students.vercel.app" className='text-lg font-medium text-gray-500'>Natijalar</a>
               <a href="https://www.wbsdev.uz" className='text-lg font-medium text-gray-500'>Dasturchi sayt</a>
+              <a href="https://sflbfpiyifassafgasffy.vercel.app" className='text-lg font-medium text-gray-500'>To'lovlar</a>
             </nav>
           </div>
           {/* <div className='grid gap-3'>
