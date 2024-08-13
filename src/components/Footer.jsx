@@ -53,7 +53,7 @@ const Footer = () => {
           <div className='border-b-2 w-[500px] max-sm:w-[300px]'></div>
         </div>
         <div className='flex justify-center'>
-          <Link target='_blank' to={"https://devs-community-io.vercel.app"}>
+          <Link target='_blank' to={"https://wbsdev.uz"}>
             <img src={WBS} alt="" className='w-10' />
           </Link>
         </div>
