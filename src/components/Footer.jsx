@@ -26,7 +26,6 @@ const Footer = () => {
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link1")}</a>
               <a href="https://begov-for-students.vercel.app" className='text-lg font-medium text-gray-500'>Natijalar</a>
               <a href="https://www.wbsdev.uz" className='text-lg font-medium text-gray-500'>Dasturchi sayt</a>
-              <a href="https://sflbfpiyifassafgasffy.vercel.app" className='text-lg font-medium text-gray-500'>To'lovlar</a>
             </nav>
           </div>
           {/* <div className='grid gap-3'>
