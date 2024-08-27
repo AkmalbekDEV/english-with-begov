@@ -15,7 +15,7 @@ const Teachers = () => {
                         Men 2018 yil avgust oyida Xitoyning Shanghai shahrida joylashgan CTP Teaching Centre o'quv markazida ilk ish faoliyatimni boshlaganman va 2020 yil yanvarigacha u yerda ishlaganman. <div className='my-2'></div> Keyin esa O'zbekistonga qaytib, Urganch shahrida o'z o'quv kurslarimni ochdim va shu paytgacha 3000 dan ortiq o'quvchiga dars berib ularni yaxshi natijalarga erishishida yordam berib kelmoqdaman. <div className='my-2'></div> Bizning kurslarimizda zamonaviy o'qitish uslublari qo'llaniladi va har bir talabaning individual ehtiyojlariga e'tibor qaratiladi. O'quvchilarimiz qisqa vaqt ichida sezilarli natijalarga erishishadi va ingliz tilini erkin suhbatlashish darajasida o'rganishadi.
                     </p>
                 </div>
-                <img src={Begov} className='w-[35%] max-sm:w-full rounded-2xl' alt="" />
+                <img src={Begov} className='w-[40%] h-full object-cover max-sm:w-full rounded-2xl' alt="" />
             </div>
         </section>
     )
