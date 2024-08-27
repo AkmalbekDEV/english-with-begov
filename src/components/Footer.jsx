@@ -24,7 +24,6 @@ const Footer = () => {
             <h1 className='text-2xl font-medium'>{t("footer.grid2.title")}</h1>
             <nav className='grid gap-5'>
               <a href="/" className='text-lg font-medium text-gray-500'>{t("footer.grid2.link1")}</a>
-              <a href="https://begov-for-students.vercel.app" className='text-lg font-medium text-gray-500'>Natijalar</a>
               <a href="https://www.wbsdev.uz" className='text-lg font-medium text-gray-500'>Dasturchi sayt</a>
             </nav>
           </div>
