@@ -87,7 +87,7 @@ const DynamicPage = () => {
                 <img src={data.img} className='w-[40%] max-sm:w-full border-4 rounded-xl border-blue-700' alt="" />
                 <div className='grid gap-10 p-5 rounded-2xl shadow-xl bg-white w-full py-12'>
                     <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><BsWatch size={30} /> Davomiylik: <span className='text-black'>{data.continuity}</span></p>
-                    <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><ImPriceTag size={30} /> Narx: <span className='text-black'>{data.price} so'm</span></p>
+                    <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><ImPriceTag size={30} /> Narx: <span className='text-black'>{data.price}</span></p>
                     <p className='text-2xl max-sm:text-lg font-medium flex items-center gap-3'><GiTeacher size={30} /> Ustoz: <span className='text-black'>{data.teacher}</span></p>
                 </div>
             </div>
